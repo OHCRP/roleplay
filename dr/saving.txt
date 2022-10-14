@@ -1,4 +1,3 @@
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -43,7 +42,7 @@
   "embeds": [
     {
       "title": "Server 1 is starting...",
-      "description": "> \n\n**NOTES**\n\nLEO & EMS NEEDED\n\n**REMEMBER**\n\n1. Civilians  can NOT drive any emergency vehicles, including PD, EMS, FD, etc.\n\n2. Do not combat log.\n\n3. Do not bait police for any reason.\n\n4. Do not fail RP; (excessive speeding, driving in oncoming traffic, ignoring police, etc.)\n\n5. You cannot drive any vehicles listed in banned-vehicles  unless you are granted the exemption role.\n\n6. If you are purposely ramming other players, you will be removed from the session and receive a strike.\n\n7. Keep your avatar realistic.\n\n8. Do not interfere with ongoing scenes.\n\n9. Do not park cars in the middle of the street for no reason.\n\n10. Do not pass the FRP speed limit of 90 MPH.\n\n11. Do not RDM, Will be kicked and receive a strike. \n\n**3 REACTIONS NEEDED**",
+      "description": "> \n\n**NOTES**\n\nLEO & EMS NEEDED\n\n**REMEMBER**\n\n1. Civilians  can NOT drive any emergency vehicles, including PD, EMS, FD, etc.\n\n2. Do not combat log.\n\n3. Do not bait police for any reason.\n\n4. Do not fail RP; (excessive speeding, driving in oncoming traffic, ignoring police, etc.)\n\n5. You cannot drive any vehicles listed in banned-vehicles  unless you are granted the exemption role.\n\n6. If you are purposely ramming other players, you will be removed from the session and receive a strike.\n\n7. Keep your avatar realistic.\n\n8. Do not interfere with ongoing scenes.\n\n9. Do not park cars in the middle of the street for no reason.\n\n10. Do not pass the FRP speed limit of 90 MPH.\n\n11. Do not RDM, Will be kicked and receive a strike. \n\n**3+ REACTIONS NEEDED**",
       "color": 16066304,
       "author": {
         "name": "OHCR\n---------",
@@ -58,7 +57,7 @@
   </script>
 
 <script>
-    function sendMessage() {
+    function sendMessage2() {
       const request = new XMLHttpRequest();
       request.open("POST", "");
 
@@ -69,7 +68,7 @@
   "embeds": [
     {
       "title": "Server 1 is starting...",
-      "description": "> \n\n**NOTES**\n\nLEO & EMS NEEDED\n\n**REMEMBER**\n\n1. Civilians  can NOT drive any emergency vehicles, including PD, EMS, FD, etc.\n\n2. Do not combat log.\n\n3. Do not bait police for any reason.\n\n4. Do not fail RP; (excessive speeding, driving in oncoming traffic, ignoring police, etc.)\n\n5. You cannot drive any vehicles listed in banned-vehicles  unless you are granted the exemption role.\n\n6. If you are purposely ramming other players, you will be removed from the session and receive a strike.\n\n7. Keep your avatar realistic.\n\n8. Do not interfere with ongoing scenes.\n\n9. Do not park cars in the middle of the street for no reason.\n\n10. Do not pass the FRP speed limit of 90 MPH.\n\n11. Do not RDM, Will be kicked and receive a strike. \n\n**3 REACTIONS NEEDED**",
+      "description": "> \n\n**NOTES**\n\nLEO & EMS NEEDED\n\n**REMEMBER**\n\n1. Civilians  can NOT drive any emergency vehicles, including PD, EMS, FD, etc.\n\n2. Do not combat log.\n\n3. Do not bait police for any reason.\n\n4. Do not fail RP; (excessive speeding, driving in oncoming traffic, ignoring police, etc.)\n\n5. You cannot drive any vehicles listed in banned-vehicles  unless you are granted the exemption role.\n\n6. If you are purposely ramming other players, you will be removed from the session and receive a strike.\n\n7. Keep your avatar realistic.\n\n8. Do not interfere with ongoing scenes.\n\n9. Do not park cars in the middle of the street for no reason.\n\n10. Do not pass the FRP speed limit of 90 MPH.\n\n11. Do not RDM, Will be kicked and receive a strike. \n\n**3+ REACTIONS NEEDED**",
       "color": 16066304,
       "author": {
         "name": "OHCR\n---------",
