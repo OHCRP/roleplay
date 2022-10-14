@@ -1,0 +1,85 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Official Hunt County Roleplay" />
+    <meta property="og:description" content="OHCR by Dodger" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="OHCR"/>
+    <meta property="article:modified_time" content="2020-03-21T01:16:42+00:00" />
+    <meta property="og:image" content="download (16) (1) (1).png"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <link rel="stylesheet" href="styles.css">
+    <title>OHCR - Admin View</title>
+    <link rel="icon" type="image/x-icon" href="download (16) (1) (1).png">
+</head>
+<body>
+    <center>
+        <h2>Admin View</h2>
+        <br><br><br>
+    <h1>Start Server 1</h1>
+    <button onclick="sendMessage()">Start Server 1</button>
+<br><br><br>
+<h1>Start Server 2</h1>
+<button onclick="sendMessage2()">Start Server 2</button>
+
+
+</center>
+</body>
+
+
+<script>
+    function sendMessage() {
+      const request = new XMLHttpRequest();
+      request.open("POST", "");
+
+      request.setRequestHeader('Content-type', 'application/json');
+
+      const params = {
+        "content": null,
+  "embeds": [
+    {
+      "title": "Server 1 is starting...",
+      "description": "> \n\n**NOTES**\n\nLEO & EMS NEEDED\n\n**REMEMBER**\n\n1. Civilians  can NOT drive any emergency vehicles, including PD, EMS, FD, etc.\n\n2. Do not combat log.\n\n3. Do not bait police for any reason.\n\n4. Do not fail RP; (excessive speeding, driving in oncoming traffic, ignoring police, etc.)\n\n5. You cannot drive any vehicles listed in banned-vehicles  unless you are granted the exemption role.\n\n6. If you are purposely ramming other players, you will be removed from the session and receive a strike.\n\n7. Keep your avatar realistic.\n\n8. Do not interfere with ongoing scenes.\n\n9. Do not park cars in the middle of the street for no reason.\n\n10. Do not pass the FRP speed limit of 90 MPH.\n\n11. Do not RDM, Will be kicked and receive a strike. \n\n**3 REACTIONS NEEDED**",
+      "color": 16066304,
+      "author": {
+        "name": "OHCR\n---------",
+        "url": "https://ohcrp.github.io/roleplay/"
+      }
+    }
+  ],
+  "attachments": []      }
+
+      request.send(JSON.stringify(params));
+    }
+  </script>
+
+<script>
+    function sendMessage() {
+      const request = new XMLHttpRequest();
+      request.open("POST", "");
+
+      request.setRequestHeader('Content-type', 'application/json');
+
+      const params = {
+        "content": null,
+  "embeds": [
+    {
+      "title": "Server 1 is starting...",
+      "description": "> \n\n**NOTES**\n\nLEO & EMS NEEDED\n\n**REMEMBER**\n\n1. Civilians  can NOT drive any emergency vehicles, including PD, EMS, FD, etc.\n\n2. Do not combat log.\n\n3. Do not bait police for any reason.\n\n4. Do not fail RP; (excessive speeding, driving in oncoming traffic, ignoring police, etc.)\n\n5. You cannot drive any vehicles listed in banned-vehicles  unless you are granted the exemption role.\n\n6. If you are purposely ramming other players, you will be removed from the session and receive a strike.\n\n7. Keep your avatar realistic.\n\n8. Do not interfere with ongoing scenes.\n\n9. Do not park cars in the middle of the street for no reason.\n\n10. Do not pass the FRP speed limit of 90 MPH.\n\n11. Do not RDM, Will be kicked and receive a strike. \n\n**3 REACTIONS NEEDED**",
+      "color": 16066304,
+      "author": {
+        "name": "OHCR\n---------",
+        "url": "https://ohcrp.github.io/roleplay/"
+      }
+    }
+  ],
+  "attachments": []      }
+
+      request.send(JSON.stringify(params));
+    }
+  </script>
+</html>
