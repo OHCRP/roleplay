@@ -14,6 +14,28 @@
  <link rel="stylesheet" href="styles.css">
     <title>OHCR - Admin View</title>
     <link rel="icon" type="image/x-icon" href="download (16) (1) (1).png">
+
+
+    <script>
+      var newURL = window.location.protocol + "//" + window.location.host + "/" + window.location.pathname;
+    if (a.indexOf('html') > -1) { //Check of html String in URL.
+       url = url.substring(0, newURL.lastIndexOf("."));
+    }
+    </script>
+
+<script>
+  /*function check(e)
+  {
+  alert(e.keyCode);
+  }*/
+  document.onkeydown = function(e) {
+          if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) {//Alt+c, Alt+v will also be disabled sadly.
+          }
+          return false;
+  };
+  </script>
+
+
 </head>
 <body>
     <center>
@@ -33,7 +55,7 @@
 <script>
     function sendMessage() {
       const request = new XMLHttpRequest();
-      request.open("POST", "DRRR");
+      request.open("POST", "");
 
       request.setRequestHeader('Content-type', 'application/json');
 
@@ -59,7 +81,7 @@
 <script>
     function sendMessage2() {
       const request = new XMLHttpRequest();
-      request.open("POST", "DRRR");
+      request.open("POST", "");
 
       request.setRequestHeader('Content-type', 'application/json');
 
